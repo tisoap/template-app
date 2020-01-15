@@ -1,0 +1,19 @@
+@import-normalize;
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  min-height: 100vh;
+  overflow: auto;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  min-width: 320px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+}
